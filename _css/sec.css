@@ -1,0 +1,169 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : "SeoulNamsan M";
+}
+a{text-decoration : none;}
+ul{
+    list-style : none;
+    margin : 0px;
+    padding : 0px;
+}
+
+/*header*/
+#header_grid{
+    display : grid;
+    grid-template-rows: 10px 80px 10px;
+}
+#header_grid h1{
+    color : white;
+    padding-top : 23px;
+    padding-left : 50px;
+    font-size : 35px;
+}
+.black{
+    background-color : black;
+}
+.red {
+    background-color : crimson;
+}
+
+/*navigation bar*/
+#nav_bar{
+    position : absolute;
+    top : 42px;
+    right : 100px;
+}
+#nav_bar a{
+    color : white;
+    font-size : 27px;
+    margin : 40px;
+    font-weight : bold;
+}
+#nav_bar a:hover{
+    color : crimson;
+    font-weight : bolder;
+    transition :linear 0.3s;
+}
+
+/*main 1*/
+#main_1 {
+    width : auto;
+    height : 700px;
+    text-align : center;
+    background-color : ivory;
+}
+#main_1 img{
+    width : auto;
+    height : 250px;
+    margin-top : 100px;
+    margin-bottom : 20px;
+}
+#main_1 h1 {
+    font-size : 60px;
+    font-weight : bolder;
+    margin-bottom : 20px;
+}
+#main_1 h4 {
+    font-size : 30px;
+    font-weight : lighter;
+}
+
+/*main_2*/
+#main_2 {
+    border-bottom : 1px solid blue;
+    width : auto;
+    height : 700px;
+    background-color : beige;
+}
+#img_grid{
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-rows : 1fr 1fr;
+    width : 750px;
+    height : 500px;
+    place-items :center;
+    justify-content : auto;
+    margin : auto;
+    padding-top : 100px;
+    margin-bottom : 100px;
+}
+#img_grid div{
+    position : relative;
+}
+#img_grid img{ 
+    width : 200px;
+    height : 200px;
+    object-fit : cover;
+    border-radius : 30%;
+    vertical-align : middle;
+}
+#img_grid img:hover{
+    opacity : 0.5;
+    transition : linear 0.1s;
+}
+.text {
+    position : absolute;
+    text-align : center;
+    font-size : 25px;
+    top : 50%;
+    left : 50%;
+    transform : translate( -50%, -30%);
+    opacity : 0;
+}
+#img_grid :hover > .text{opacity : 1; transition : linear 0.3; pointer-events : none;}
+
+/*footer*/
+footer{
+    width : auto;
+    height : 300px;
+}
+#footer_grid_1{
+    display : grid;
+    grid-template-rows : 18px 264px 18px;
+    background-color : #4E342E;
+}
+#footer_grid_2{
+    display :grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    border-style : dashed none dashed; 
+    border-color : white;
+    border-width : 15px;
+    padding : 10px 50px;
+    background-color : #3E2723;
+}
+#footer_grid_2 ul{
+    padding-top : 15px;
+    padding-left : 20px;
+    font-size : 15px;
+    background-color : #2D221E;
+    color : white;
+}
+#footer_grid_2 ul h4{
+    margin-bottom : 13px;
+}
+#footer_grid_2 li{
+    padding-left : 5px;
+    margin-bottom : 10px;
+}
+#footer_grid_2 a{
+    color : white;
+}
+#first{
+    border-right : 10px solid #3E2723;
+}
+#first h4{
+    font-size : 25px;
+}
+#first p{
+    font-size : 15px;
+    padding : 0px 40px 0px 20px;
+}
+#second{
+    border-style : none solid;
+    border-width : 10px;
+    border-color : #3E2723
+}
+#third {
+    border-left : 10px solid #3E2723;
+}
