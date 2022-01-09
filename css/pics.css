@@ -1,6 +1,6 @@
 @font-face{
-	src : url("../data/fonts/SeoulNamsanM.ttf")
-	font-family : "SeoulNamsan M"
+	src : url("../data/fonts/SeoulNamsanM.ttf");
+	font-family : "SeoulNamsan M";
 }
 *{
     margin : 0px;
