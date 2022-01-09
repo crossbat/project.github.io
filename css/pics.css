@@ -173,6 +173,6 @@ footer{
     border-left : 10px solid #3E2723;
 }
 #third img{
-	max-width : 30px;
-	max-height : auto;
+	width : 50px;
+	height : auto;
 }
