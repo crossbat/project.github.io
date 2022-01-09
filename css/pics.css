@@ -1,3 +1,7 @@
+@font-face{
+	src : url("../data/fonts/SeoulNamsanM.ttf")
+	font-family : "SeoulNamsan M"
+}
 *{
     margin : 0px;
     padding : 0px;
