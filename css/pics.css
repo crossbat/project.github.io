@@ -169,10 +169,22 @@ footer{
     border-width : 10px;
     border-color : #3E2723
 }
+#second h4, li{
+	padding-bottom : 10px;
+}
+#second li {
+	font-weight : lighter;
+}
 #third {
     border-left : 10px solid #3E2723;
 }
 #third img{
 	width : 30px;
 	height : 30px;
+	padding-right : 10px;
+}
+#third li{
+	display : flex;
+	flex-direction : row;
+	align-items : center;
 }
