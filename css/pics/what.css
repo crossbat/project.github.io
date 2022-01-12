@@ -1,0 +1,24 @@
+@font-face{
+	src : url("../../data/fonts/SeoulNamsanM.ttf");
+	font-family : "SeoulNamsan M";
+}
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : "SeoulNamsan M";
+}
+a{text-decoration : none;}
+body{
+    display : grid;
+    place-items : center;
+}
+#grid{
+    display : grid;
+    grid-template-rows : 1fr 1fr;
+    width : 800px;
+    height : 600px;
+    place-items : center;
+    justify-content : auto;
+    border : 1px solid black; 
+}
+
