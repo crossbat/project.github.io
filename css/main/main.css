@@ -1,5 +1,5 @@
 @font-face{
-	src : url("../data/fonts/Noto_Sans/NotoSans-Regular.ttf");
+	src : url("../../data/fonts/Noto_Sans/NotoSans-Regular.ttf");
 	font-family : "noto"
 }
 *{
@@ -109,4 +109,39 @@ a{
     opacity : 0.9;
     transition : linear 0.5s;
     pointer-events : none;
+}
+/*about*/
+#about{
+    width : auto;
+    height : 800px;
+    background-color : black;
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    place-items : center;
+}
+#logo img{
+    width : 200px;
+    height : 200px;
+}
+.other{
+    width : 100%;
+    height : 100%;
+    display : grid;
+    grid-template-rows : 1fr 1fr;
+    place-items : center;
+}
+.other img {
+    width : 130px;
+    height : 130px;
+    opacity : 0;
+}
+#about:hover > .other img{
+    opacity : 0.7;
+    transition : linear 0.7s;
+}
+/*footer*/
+footer{
+    position : absolute;
+    text-align : center;
+    bottom : 100px;
 }

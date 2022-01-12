@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html id = "top">
+<html>
 	<head>
 		<meta charset = "UTF-8">
 		<title>Main</title>
-		<link rel = "stylesheet" href ="css/main/main.css" type = "text/css">
+		<link rel = "stylesheet" href ="css/main.css" type = "text/css">
 	</head>
 	<body>
 		<header id = "title">
@@ -38,34 +38,21 @@
 				<p class = "text-2">MACHINE<br>LEARNING</p>
 			</div>
 			<div>
-				<a href = "html/blog/blog.html"><img src = "https://blog.hootsuite.com/wp-content/uploads/2020/03/try-on-instagram.svg" alt = "blog"></a>
+				<a href = "html/blog.html"><img src = "https://blog.hootsuite.com/wp-content/uploads/2020/03/try-on-instagram.svg" alt = "blog"></a>
 				<p class = "text-2">BLOG</p>
 			</div>
 			<div>
-				<a href = "html/pics/pics.html"><img src = "https://images.hdqwalls.com/wallpapers/photographer-illustration-4k-yb.jpg" alt = "pics"></a>
+				<a href = "html/pics.html"><img src = "https://images.hdqwalls.com/wallpapers/photographer-illustration-4k-yb.jpg" alt = "pics"></a>
 				<p class = "text-2">TAKE<br>PICTURE</p>
 			</div>
 		</div>
 		<div id = "about">
-			<div class = "other">
-				<div id = "mail_icon">
-					<a href = "mailto:xowls1999@gmail.com"><img src = "data/img/arroba.png" alt = "mail"></a>
-				</div>
-				<div id = "insta_icon">
-					<a href = "https://www.instagram.com/chal.ckak/?hl=ko"><img src = "data/img/instagram-white.png" alt = "instagram"></a>
-				</div>
+			<div id = "first">
+				
 			</div>
 			<div id = "logo">
-				<img src = "data/img/atom.png" alt = "white logo">
+				<img src = "data/img/atom.png">
 			</div>
-			<div class = "other">
-				<div id = "github">
-					<a href = "https://github.com/crossbat?tab=repositories"><img src = "data/img/github.png" alt = "github"></a>
-				</div>
-				<div id = "#">
-					<a href = "#top"><img src = "data/img/up-arrow.png" alt = "top"></a>
-				</div>
-			</div>
-		</div>	
+		</div>
 	</body>
 </html>
