@@ -75,7 +75,6 @@ ul{
 
 /*main_2*/
 #main_2 {
-    border-bottom : 1px solid blue;
     width : auto;
     height : 700px;
     background-color : beige;
@@ -104,7 +103,7 @@ ul{
 }
 #img_grid img:hover{
     opacity : 0.5;
-    transition : linear 0.1s;
+    transition : linear 1.0s;
 }
 .text {
     position : absolute;
