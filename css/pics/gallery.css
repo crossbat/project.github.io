@@ -1,0 +1,94 @@
+@font-face{
+	src : url("../../data/fonts/SeoulNamsanM.ttf");
+	font-family : "SeoulNamsan M";
+}
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : "SeoulNamsan M";
+}
+a{text-decoration : none;}
+ul{
+    list-style : none;
+    margin : 0px;
+    padding : 0px;
+}
+/*header*/
+#header_grid{
+    display : grid;
+    grid-template-rows: 10px 80px 10px;
+}
+#header_grid h1{
+    color : white;
+    padding-top : 23px;
+    padding-left : 50px;
+    font-size : 35px;
+}
+.black{
+    background-color : black;
+}
+.red {
+    background-color : crimson;
+}
+
+/*navigation bar*/
+#nav_bar{
+    position : absolute;
+    top : 38px;
+    right : 100px;
+}
+#nav_bar a{
+    color : white;
+    font-size : 27px;
+    margin : 40px;
+    font-weight : bold;
+}
+#nav_bar a:hover{
+    color : crimson;
+    font-weight : bolder;
+    transition :linear 0.3s;
+}
+/*main*/
+#main{
+    display : grid;
+    grid-template-columns : 200px 1fr;
+}
+#nav-grid{
+    display : grid;
+    grid-template-columns : 10px 10px 1fr 10px 10px;
+    background-color : black;
+    height : auto;
+}
+.emt{
+    background-color : gold;
+    
+}
+#theme{
+    background-color : black;
+}
+#theme a{
+    color : white;
+    font-size : 30px;
+    text-align : center;
+    font-weight : bolder;
+}
+#theme li{
+    text-align : center;
+    margin-top : 20px;
+}
+#theme a:hover{
+    color : gold;
+    transition : linear 0.5s;
+}
+/*image-grid*/
+#image-grid{
+    display : grid;
+    position : relative;
+    grid-template-rows : 70px 1fr;
+    padding : 20px 40px;
+}
+#top-nav h1{
+    font-weight : bold;
+    font-size : 40px;
+    
+}
