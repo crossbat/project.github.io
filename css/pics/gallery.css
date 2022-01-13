@@ -55,7 +55,7 @@ ul{
 }
 #nav-grid{
     display : grid;
-    grid-template-columns : 10px 10px 1fr 10px 10px;
+    grid-template-columns : 10px 10px 160px 10px 10px;
     background-color : black;
     height : auto;
 }
@@ -74,7 +74,7 @@ ul{
 }
 #theme li{
     text-align : center;
-    margin-top : 20px;
+    margin-top : 30px;
 }
 #theme a:hover{
     color : gold;
@@ -83,12 +83,47 @@ ul{
 /*image-grid*/
 #image-grid{
     display : grid;
-    position : relative;
     grid-template-rows : 70px 1fr;
     padding : 20px 40px;
+    place-items : center;
 }
 #top-nav h1{
+    position : absolute;
+    top : 120px;
+    left : 240px;
     font-weight : bold;
     font-size : 40px;
     
 }
+#images{
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    width : auto;
+    height : auto;
+}
+.grid{
+    width : 100%;
+}
+#images img{
+    width : 90%;
+    height : auto;
+    object-fit : cover;
+    padding : 20px;
+}
+/*footer*/
+#footer{
+    display : grid;
+    grid-template-columns : 10px 10px 160px 10px 10px 1fr;
+    width : auto;
+    height : 150px;
+    background-color : black;
+}
+#top_button{
+    width : 100px;
+    height : 100px;
+    padding-left : 30px;
+}
+.yellow{
+    background-color : gold;
+}
+
