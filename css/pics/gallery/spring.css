@@ -89,6 +89,7 @@ ul{
 #mini_nav a{
     font-size : 30px;
     margin-left : 40px;
+    color : dimgray;
 }
 #image-grid{
     display : grid;
