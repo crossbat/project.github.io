@@ -103,7 +103,7 @@ ul{
 }
 #img_grid img:hover{
     opacity : 0.5;
-    transition : linear 1.0s;
+    transition : linear 0.5s;
 }
 .text {
     position : absolute;
