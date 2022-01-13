@@ -1,0 +1,93 @@
+@font-face{
+	src : url("../../data/fonts/SeoulNamsanM.ttf");
+	font-family : "noto"
+}
+*{
+	margin : 0px;
+	padding : 0px;
+	font-family : "noto"
+}
+a{
+	text-decoration : none;
+	color : black;
+}
+/*header*/
+#title{
+	display : grid;
+	grid-template-columns : 200px 1fr 200px;
+	margin : 50px 70px 20px 70px;
+}
+#grid-title h1 {
+	display : flex;
+	flex-direction : row;
+	align-items : center;
+	padding-left : 10px;
+	color : black;
+}
+#grid-title img{
+	padding-right : 10px;
+	width : 50px;
+	height : 50px;
+}
+/*nav*/
+#grid-nav{
+	display: flex;
+	flex-direction : row;
+	align-items : center;
+}
+#grid-nav a{
+	margin-right : 60px;
+
+}
+/*main1*/
+#main1 {
+    display : grid;
+    grid-template-rows : 1fr 200px;
+	height : 700px;
+	width : auto;
+    justify-items : center;
+}
+#main-grid:hover > .text{
+    visibility : visible;
+    transition : linear 0.5s;
+    opacity : 0.5;
+}
+#main-grid {
+    display : grid;
+    grid-template-rows : 1fr 1fr 1fr;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    width : 600px;
+    height : 400px;
+    place-items : center;
+    padding-top : 100px;
+}
+.image{
+    width : 80px;
+    height : 80px;
+    opacity : 0.7;
+}
+.text {
+    visibility : hidden;
+    opacity : 0;  
+}
+.text p{
+    font-weight : 1000;
+    font-size : 25px;
+}
+#info{
+    text-align : center;
+    font-size : 20px;
+    font-weight : bold;
+}
+#info p{
+    margin-top : 10px;
+}
+#back{
+    position : absolute;
+    top : 20px;
+    left : 20px;
+}
+#back img{
+    width : 60px;
+    height : 60px;
+}
