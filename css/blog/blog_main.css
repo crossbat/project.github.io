@@ -1,0 +1,50 @@
+@font-face{
+    src : url("../../data/fonts/Noto_Sans/NotoSans-Regular.ttf");
+    font-family : "noto";
+}
+* {
+    padding : 0px;
+    margin : 0px;
+    font-family : "noto";
+}
+a{
+    text-decoration : none;
+    color : black;
+}
+body{
+    position : relative;
+    background-image : url(../../data/img/back.jpg);
+    width : 100%;
+    height : 1000px;
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-attachment : fixed;
+    backdrop-filter : blur(3px);
+}
+.main-grid{
+    display : grid;
+    grid-template-rows : 70px 1fr;
+    place-items : center;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    width : 60%;
+    height : 800px;
+    transform : translate( -50%, -50%);
+    background-color : rgba(225, 225, 225, 0.5);
+    margin-bottom : 200px;
+    z-index : 9999;
+    opacity : 1;
+    border-radius : 30px;
+}
+.title{
+    width : auto;
+    height : auto;
+    display : flex;
+    justify-content : center;
+    z-index : 1;
+    border : 2px solid black;
+}
+.title h1{
+    font-weight : lighter;
+}
