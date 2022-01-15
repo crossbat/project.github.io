@@ -10,7 +10,9 @@
 #main-background{
     width : 100%;
     height : 100vh;
-    background-color : black;
+    background-image : url("../../data/img/background2.jpg");
+    background-size : cover;
+    background-position : center;
 }
 #main-background h1{
     position : absolute;
