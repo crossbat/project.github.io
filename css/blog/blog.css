@@ -10,9 +10,10 @@
 #main-background{
     width : 100%;
     height : 100vh;
-    background-image : url("../../data/img/background2.jpg");
+    background-image : url("../../data/img/background3.jpg");
     background-size : cover;
     background-position : center;
+    background-attachment : fixed;
 }
 #main-background h1{
     position : absolute;
@@ -24,7 +25,18 @@
 }
 #main-background a{
     position : absolute;
-    bottom : 30%;
+    bottom : 15%;
     left : 50%;
     transform : translate( -50%, -50%);
+}
+.hidden{
+    position :absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate( -50%, -50%);
+    width : 65%;
+    height : 80%;
+    background-color : rgba(0, 0, 0, 0.5);
+    border-radius : 30px;
+    
 }

@@ -12,39 +12,34 @@ a{
     color : black;
 }
 body{
-    position : relative;
-    background-image : url(../../data/img/back.jpg);
-    width : 100%;
-    height : 1000px;
+    background-image : url("../../data/img/sofa.jpg");
     background-size : cover;
+    background-position : center;
     background-repeat : no-repeat;
-    background-attachment : fixed;
-    backdrop-filter : blur(3px);
+    width : 100%;
+    height : 100vh;
 }
-.main-grid{
+#top{
     display : grid;
-    grid-template-rows : 70px 1fr;
-    place-items : center;
-    position : absolute;
-    top : 50%;
-    left : 50%;
-    width : 60%;
-    height : 800px;
-    transform : translate( -50%, -50%);
-    background-color : rgba(225, 225, 225, 0.5);
-    margin-bottom : 200px;
-    z-index : 9999;
-    opacity : 1;
-    border-radius : 30px;
+    grid-template-rows : 100px 1fr;
 }
-.title{
-    width : auto;
-    height : auto;
-    display : flex;
+.top-grid{
+    display :flex;
+    align-items : center;
     justify-content : center;
-    z-index : 1;
-    border : 2px solid black;
 }
-.title h1{
-    font-weight : lighter;
+.mid-grid{
+    display : grid;
+    grid-template-columns : 80px 1fr 80px;
+    place-items : center;
+}
+.left img, .right img{
+    width : 30px;
+    height : 30px;
+    opacity : 0.8;
+    padding : auto;
+}
+.left:hover{
+    background-color : rgba(0,0,0,0.5);
+    transition : linear 0.3s;
 }
