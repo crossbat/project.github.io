@@ -22,13 +22,14 @@ body{
     width : 100%;
     height : 100vh;
 }
-
+/*header*/
 .title{
     position : absolute;
     top : 10%;
     left : 50%;
     transform : translate( -50%, -50%);
 }
+/*main-grid*/
 .main_grid{
     display : grid;
     grid-template-columns : 80px 1fr 230px;
@@ -36,18 +37,9 @@ body{
     width : 100%;
     height : 100%;
 }
-.right{
-    display : grid;
-    grid-template-columns : 150px 80px;
+.main_menu{
     width : 100%;
     height : 100%;
-}
-.right img{
-    display : flex;
-    align-items : center;
-    justify-content : center;
-}
-.main_menu{
     display : flex;
     justify-content : center;
     flex-direction : column;
@@ -58,16 +50,37 @@ body{
     padding-left : 10px;
     font-weight : lighter;
 }
-.right li{
-    padding: 15px 0px 15px 10px;
-    font-weight : bolder;
-}
+/*left, right*/
 .left img, .right img{
     width : 30px;
     height : auto;
     opacity : 0.7;
 }
+.right{
+    display : grid;
+    grid-template-columns : 150px 80px;
+    width : 100%;
+    height : 100%;
+}
+.right li{
+    padding: 15px 0px 15px 10px;
+    font-weight : bolder;
+}
 .right li:hover{
     color : white;
     transition : linear 0.1s;
+}
+.right label{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+#check{
+    display : none;
+}
+.navi{
+    visibility : hidden;
+}
+.right input:checked + .right nav{
+    visibility : visible;
 }
